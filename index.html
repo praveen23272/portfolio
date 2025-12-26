@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<style>
+/* ---------- Global Styles ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {git init
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+  background: #444;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+nav a:hover {
+  background: #666;
+}
+
+/* ---------- Sections ---------- */
+section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* ---------- Skills ---------- */
+.skills span {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* ---------- Projects ---------- */
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #f9f9f9;
+  width: 200px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  section {
+    margin: 10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Praveen S</h1>
+  <p>Web Developer | UI Designer</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a passionate web developer focused on building clean, responsive, and user-friendly websites.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>React</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project-card">Portfolio Website</div>
+    <div class="project-card">Music Player UI</div>
+    <div class="project-card">Landing Page</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: example@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2025 Praveen S</p>
+</footer>
+
+</body>
+</html>
