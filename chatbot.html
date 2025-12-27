@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat UI</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+/* Chat Box */
+.chat{
+    max-width:350px;
+    margin:40px auto;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* Header */
+.header{
+    background:#4f46e5;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+/* Messages */
+.messages{
+    padding:15px;
+    height:300px;
+}
+
+.msg{
+    padding:10px;
+    margin-bottom:10px;
+    max-width:70%;
+    border-radius:10px;
+}
+
+.left{
+    background:#eee;
+}
+
+.right{
+    background:#4f46e5;
+    color:white;
+    margin-left:auto;
+}
+
+/* Input */
+.input{
+    display:flex;
+    border-top:1px solid #ccc;
+}
+
+input{
+    flex:1;
+    padding:10px;
+    border:none;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    background:#4f46e5;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="chat">
+    <div class="header">Chat</div>
+
+    <div class="messages">
+        <div class="msg left">Hi!</div>
+        <div class="msg right">Hello 👋</div>
+        <div class="msg left">How are you?</div>
+        <div class="msg right">I'm good 😊</div>
+    </div>
+
+    <div class="input">
+        <input type="text" placeholder="Type message...">
+        <button>Send</button>
+    </div>
+</div>
+
+</body>
+</html>
